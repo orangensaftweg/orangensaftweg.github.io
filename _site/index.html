@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Main Page</title>
     <link rel="stylesheet" href="/assets/css/global.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="/assets/js/global.js"></script>
 </head>
 <body>
-    {% include navigation.html %}
+    <nav>
+    
+    <a href="/" class="active">
+        Main Page
+    </a>
+    
+    <a href="/about" >
+        About
+    </a>
+    
+</nav>
     <div class="content">
-        {{ content }}
+        <h1 id="orangensaftweg-wiki">Orangensaftweg Wiki</h1>
+
+<p><img src="https://github.com/orangensaftweg/osw-assets/raw/main/orangensaftweg-logo.png" alt="Orangensaftweg" /></p>
+
     </div>
     <div id="search">
         <script async src="https://cse.google.com/cse.js?cx=354995cb561854c86">
